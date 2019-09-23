@@ -1,0 +1,85 @@
+#links{background:url('Image4(white).jpg');
+background-repeat: no-repeat;
+background-size: 1620px 750px;
+position: relative;
+}
+body { background:url('Image3(Toronto).jpg');
+height: 100vh;
+background-size:cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;}
+ul{float: right;
+  text-decoration: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+
+  color: #fff;
+    text-decoration: none;
+  padding:5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  opacity: 0.8;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+#main{
+  max-width: 1400px;
+  margin: auto;
+
+}
+ul li.home a{
+  background-color: #fff;
+  color: #000;
+}
+#Introduction{
+  position: absolute;
+  top: 35%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+
+
+
+}
+#Introduction h1{
+  color: #000;
+  font-size: 200px;
+}
+#Introduction h3{
+  color: #000;
+  font-size: 35px;
+  position:inherit;
+  top: 60%;
+  left: 5%;
+}
+#Help{
+position: absolute;
+  top: 64%;
+  left: 32%;
+
+}
+.button{
+border: 1px solid #fff;
+padding: 10px 100px;
+color: #000;
+text-decoration: none;
+background-color: white;
+transition: 1.5s ease;
+opacity: 0.8;
+}
+.button:hover{
+  background-color: #000;
+  color:#fff;
+}
+#Credits{
+color: #fff;
+  float: right;
+  position: absolute;
+  top:100%;
+  right:2%;
+}
